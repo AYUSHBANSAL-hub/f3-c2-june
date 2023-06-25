@@ -15,7 +15,7 @@ function ToggleSections() {
   profilePage.style.display = isAccessTokenAvailable ? "block" : "none";
 
   document.getElementsByClassName("header-right")[0].innerHTML=isAccessTokenAvailable?`<p>Profile</p>`:`<p>Sign Up</p>`
-
+//made some changes
   if (isAccessTokenAvailable) {
     displayProfileDetails();
   }
