@@ -1,0 +1,91 @@
+body{
+    color:white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    padding-inline: 20px;
+}
+
+.header-right{
+    display: flex;
+}
+.header-right>p{
+    padding-inline: 20px;
+}
+.container{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    margin-inline:auto ;
+    box-sizing: border-box;
+    width: 70vw;
+}
+#signup-page{
+    box-sizing: border-box;
+    width: 100%;
+}
+.signup-heading{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.input-group{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.success-message{
+    color: greenyellow;
+}
+
+.error-message{
+    color: red;
+}
+
+#signup-button,#logout-button{
+    background-color: white;
+    color: black;
+    padding: 15px 40px;
+    border: none;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.profile{
+    color: white;
+    padding: 40px;
+}
+
+.profile-header{
+    font-size: 64px;
+}
+
+.profile-details{
+    display: flex;
+    font-size:40px;
+}
+.profile-details>div{
+    margin: 5px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up using local storage</title>
+    <link rel="stylesheet" href="./style.css"/>
+  </head>
+  <body>
+    <div class="header">
+      <p >Header</p>
+      <div class="header-right">
+      </div>
+    </div>
+    <div class="container">
+      <div id="signup-page">
+        <h1 class="signup-heading">Sign Up</h1>
+        <div class="input-group">
+          <label for="full-name">Full Name</label>
+          <input type="text" id="fullname" />
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" />
+        </div>
+        <div class="input-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" />
+        </div>
+        <p id="signup-success" class="success-message"></p>
+        <p id="signup-error" class="error-message"></p>
+        <button id="signup-button">Sign Up</button>
+      </div>
+    </div>
+
+    <div class="profile">
+        <div id="profile-page" >
+            <h1 class="profile-header">Profile</h1>
+            <div class="profile-details">
+                <div>Full Name : </div>
+                <div id="profile-fullname"></div>
+            </div>
+            <div class="profile-details">
+                <div>Email : </div>
+                <div id="profile-email"></div>
+            </div>
+            <div class="profile-details">
+                <div>Password : </div>
+                <div id="profile-password"></div>
+            </div>
+            <button id="logout-button" class="logout-button">Logout</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
