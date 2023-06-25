@@ -82,6 +82,7 @@ document.getElementById("signup-button").addEventListener("click", function () {
       errorElement.textContent = "";
       successElement.textContent = "Successfully Signed Up!";
       setTimeout(ToggleSections, 2000);
+      
     } else {
       errorElement.textContent = "Password mismatch";
       successElement.textContent = "";
@@ -96,6 +97,10 @@ document.getElementById("signup-button").addEventListener("click", function () {
 document.getElementById("logout-button").addEventListener("click", function () {
   clearUserState();
   ToggleSections();
+  const fullname = document.getElementById("fullname").value="";
+  const email = document.getElementById("email").value="";
+  const password = document.getElementById("password").value="";
+  const confirmPassword = document.getElementById("confirm-password").value="";
 });
 
 //load Event Listener
